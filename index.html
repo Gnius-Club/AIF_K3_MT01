@@ -1,24 +1,220 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 1 de 22</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 1 Kínder</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: El Gran Juego de los Títeres Inteligentes</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Explicar con una analogía la diferencia entre seguir una instrucción (programa) y mejorar con la práctica (aprender).</li>
+<li>Comparar el aprendizaje humano con el de una máquina.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Comunicación clara de la diferencia entre aprender con práctica y seguir instrucciones fijas, y participación activa dando sugerencias.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>2 Títeres o figuras del Set de Personas de LEGO.</li>
+<li>Una pelota suave.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Bienvenidos a la Aventura del Aprendizaje! ⏰ 5 min</h2>
+<p>Damos la bienvenida a nuestros pequeños exploradores y los invitamos a reflexionar sobre cómo aprendemos cosas nuevas, ¡especialmente a atrapar una pelota!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Misterio de la Pelota (Proyectar Diapositiva 1) ⏰ 3 min</h3>
+<p>Recibe a los niños con entusiasmo y una gran sonrisa. Inicia la conversación con la pregunta clave sobre cómo aprendieron a atrapar una pelota. Este es el punto de partida para que los niños conecten con sus propias experiencias de aprendizaje. Anímales a pensar en el proceso, no solo en el resultado.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, hola, mis pequeños genios del aprendizaje! ¡Qué alegría tenerlos aquí listos para una nueva misión llena de descubrimientos! Hoy vamos a explorar cómo aprendemos cosas nuevas, ¡y para eso les traigo un gran misterio! ¿Alguien me puede contar cómo aprendió a atrapar una pelota? ¿Fue a la primera vez, así, ¡pum!, o necesitaron practicar un poquito? ¡Cuéntenme sus secretos, me encantaría escucharlos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Compartiendo Experiencias (Proyectar Diapositiva 2) ⏰ 2 min</h3>
+<p>Después de la pregunta inicial, da la oportunidad a varios niños para que compartan sus anécdotas. Escucha atentamente sus respuestas, validando sus experiencias. Guía la conversación hacia la idea de que la práctica y los errores son parte del aprendizaje, preparando el terreno para la analogía con los títeres.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Qué historias tan interesantes! Veo que muchos de ustedes tuvieron que intentar varias veces, ¿verdad? ¡Eso es aprender! A veces nos equivocamos, y eso está bien, porque cada vez que lo intentamos, ¡nuestro cerebro aprende un poquito más! ¿Alguien más quiere compartir cómo aprendió algo que le costó un poquito al principio? ¡Es genial ver cómo somos unos grandes aprendices!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: Conociendo a Nuestros Amigos Títeres: Programado y Aprendiz ⏰ 10 min</h2>
+<p>Es hora de presentar a dos personajes muy especiales que nos ayudarán a descubrir cómo aprenden las máquinas y cómo aprendemos nosotros. ¡Uno es muy especial, el otro... no tanto!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: La Presentación del Títere Programado (Proyectar Diapositiva 3) ⏰ 5 min</h3>
+<p>Con gran dramatismo, presenta al "Títere Programado". Explica que este títere solo puede hacer una cosa, y demuéstralo lanzándole la pelota y haciendo que falle de la misma manera repetidamente. Enfatiza la idea de que siempre hace lo mismo, sin importar lo que pase. Permite que los niños observen y entiendan esta característica.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, mis valientes exploradores! ¡La función de títeres va a comenzar! Hoy les presento a dos amigos muy especiales. Miren, él es 'Títere Programado'. ¡Hola, Títere Programado! *Mueve el títere para que intente atrapar la pelota y falle de la misma manera*. ¡Ay, ay, ay! Como ven, Títere Programado siempre intenta atrapar la pelota de la misma manera, ¡y siempre le pasa lo mismo! ¡Solo sabe hacer una cosa, una y otra vez! No importa cuántas veces lo intente, siempre lo hace igual. ¿Lo ven? ¡Qué cosa más curiosa!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Llegada del Títere Aprendiz (Proyectar Diapositiva 4) ⏰ 5 min</h3>
+<p>Ahora, con emoción, presenta al "Títere Aprendiz". Contrasta sus habilidades con las del Títere Programado, explicando que este nuevo amigo sí puede mejorar. Haz una pequeña demostración de cómo el Títere Aprendiz parece "prestar atención" o "intentar algo diferente" para atrapar la pelota, incluso si aún no lo logra perfectamente. Genera expectativas sobre cómo los niños podrán ayudarlo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Pero, ¡esperen, esperen! Por aquí tengo a otro amigo... ¡Él es 'Títere Aprendiz'! ¡Hola, Títere Aprendiz! Él es diferente a Títere Programado. ¿Saben por qué? ¡Porque él puede mejorar y aprender de sus errores! Si le damos consejos o si practica un poquito, ¡puede hacerlo cada vez mejor! ¿Quieren ver cómo? ¡Vamos a ver si Títere Aprendiz puede aprender a atrapar la pelota con nuestra ayuda!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra! El Gran Reto de la Pelota y los Títeres ⏰ 20 min</h2>
+<p>Nuestros pequeños ingenieros ayudarán a los títeres a jugar con la pelota, observando de cerca cómo cada uno reacciona y cómo podemos ayudar al Títere Aprendiz a mejorar.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Preparando el Campo de Juego (Proyectar Diapositiva 5) ⏰ 5 min</h3>
+<p>Organiza a los niños en un círculo amplio en el suelo, asegurando que todos tengan espacio y puedan ver a los títeres. Establece claramente las reglas del juego: lanzar la pelota suavemente y con cuidado, siempre hacia los títeres. Explica que primero jugarán con el Títere Programado y luego con el Títere Aprendiz. Asegúrate de tener la pelota a mano.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente, equipo! Ahora, vamos a sentarnos en un círculo grande, ¡como un campo de juego gigante para nuestros títeres! Asegúrense de tener espacio para estirar sus piernas. ¿Listos para lanzar la pelota a nuestros amigos títeres? Recuerden, ¡suavecito para que puedan intentar atraparla y nadie se lastime! Primero, vamos a lanzar la pelota a Títere Programado, ¡el que solo sabe hacer una cosa! Luego, jugaremos con Títere Aprendiz.</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Asesorando a los Títeres (Proyectar Diapositiva 6) ⏰ 15 min</h3>
+<p>Inicia el juego. Lanza la pelota al "Títere Programado" varias veces, demostrando su falla consistente. Luego, pasa al "Títere Aprendiz". Con cada lanzamiento al Títere Aprendiz, simula una mejora gradual (quizás primero la rosa, luego la toca, luego la detiene un poco). Después de cada intento del Títere Aprendiz, invita a los niños a darle "consejos" en voz alta. Anima a que los consejos sean específicos y útiles ("¡usa las dos manos!", "¡mira la pelota!", "¡salta un poquito!"). Reconoce sus aportaciones y simula que el títere las "usa".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Aquí viene la pelota para Títere Programado! *Lanza y falla de la misma forma*. ¡Ay, Títere Programado, sigues haciendo lo mismo! ¡No aprende nada nuevo! ¿Y qué tal para Títere Aprendiz? ¡Vamos, Títere Aprendiz! *Lanza y simula una ligera mejora, por ejemplo, que la roza con una mano*. ¡Guau! ¡Parece que Títere Aprendiz está mejorando un poquito! ¿Qué creen que podría hacer mejor la próxima vez? ¡Denle consejos! ¡Díganle qué hacer! *Escucha las ideas de los niños y repítelas*. '¡Usa las dos manos!', '¡Mira la pelota!', '¡Salta!' ¡Excelente idea, mi capitán! ¡Vamos a ver si Títere Aprendiz lo logra esta vez con su consejo! *Lanza de nuevo y simula una mejora mayor, como que la detiene un momento*. ¡Lo está logrando gracias a sus consejos! ¡Son unos entrenadores fantásticos!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: Celebrando el Aprendizaje: ¿Quién Gana la Medalla de Oro? ⏰ 5 min</h2>
+<p>Cerramos nuestra misión con una reflexión profunda sobre lo que aprendimos de nuestros amigos títeres y cómo se relaciona con nuestro propio camino de aprendizaje.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Debate de los Títeres (Proyectar Diapositiva 7) ⏰ 3 min</h3>
+<p>Una vez finalizado el juego, reúne a los niños y plantea las preguntas de reflexión clave. Fomenta que verbalicen sus observaciones y pensamientos. Guíalos para que identifiquen la diferencia fundamental entre el títere que sigue una instrucción fija y el que mejora con la práctica. Conecta esto con su propia experiencia de aprender y crecer.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Misión cumplida, equipo! ¡Han sido unos observadores increíbles y unos entrenadores maravillosos! Ahora, cuéntenme, ¿cuál fue la diferencia más grande que notaron entre Títere Programado y Títere Aprendiz? ¿Qué hacía Títere Programado siempre? ¿Y Títere Aprendiz? *Escucha sus respuestas*. ¡Muy bien! Títere Programado siempre hacía lo mismo, ¡como si tuviera una instrucción fija! Pero Títere Aprendiz... ¡él mejoraba y aprendía de sus errores, como nosotros! Entonces, ¿cuál de los dos títeres se parece más a nosotros cuando estamos aprendiendo algo nuevo, como a andar en bici, a dibujar o a hacer un rompecabezas? ¡Compartan sus ideas, son muy valiosas!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Hasta la Próxima Misión! (Proyectar Diapositiva 8) ⏰ 2 min</h3>
+<p>Agradece la participación entusiasta de los niños y de los títeres. Despide la sesión con un tono de celebración y anticipación para la próxima aventura. Refuerza que el aprendizaje es un proceso continuo y divertido, y que ellos son capaces de aprender muchísimas cosas.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Wow, qué reflexiones tan geniales! ¡Son unos verdaderos detectives del aprendizaje! ¡Me encanta cómo piensan! Y ahora, nuestros amigos títeres quieren agradecerles por jugar con ellos y por ser tan buenos entrenadores. *Mueve los títeres para que 'agradezcan' y se 'despidan' con movimientos divertidos*. ¡Gracias, gracias, pequeños genios! ¡Han hecho un trabajo increíble hoy! Recuerden que aprender es como jugar, ¡y cada vez que lo intentamos, nos hacemos más y más inteligentes! ¡Nos vemos en la próxima misión, donde seguiremos descubriendo los secretos del mundo de la tecnología y el aprendizaje! ¡Felicidades, equipo! ¡Un aplauso para ustedes!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
